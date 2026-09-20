@@ -18,7 +18,7 @@ def test_events_come_out_in_date_order():
  
  
 def test_an_event_today_still_counts_as_upcoming():     
-    result = upcoming(EVENTS, "2026-03-01")   
+    result = upcoming(EVENTS, "2027-03-01")
     assert [e["title"] for e in result] == ["Hackathon"] 
  
  
